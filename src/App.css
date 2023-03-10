@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+}
+
+.ff_inter {
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    /*----- FONT SIZE----- */
+    --fs-xsm: 12px;
+    --fs-sm: 14px;
+    --fs-md: 16px;
+    --fs-lg: 18px;
+    --fs-xl: 26px;
+    --fs-xxl: 28px;
+
+    /* -----COLOR------ */
+    --clr-blk: #282828;
+    --clr-dgray: #5f6980;
+    --clr-gray: #9d9fa1;
+    --clr-green: #20c997;
+    --clr-red: #dc3545;
+    --clr-orange: #fd7e14;
+    --clr-litgreen: #dcfff5;
+    --clr-litred: #ffe0e3;
+    --clr-offwhite: #F2F4F7;
+    --clr-orange: #fd7e14;
+}
+
+/* <-----FONT SIZE----------- */
+.fs_xsm {
+    font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_xxl {
+    font-size: var(--fs-xxl);
+}
+
+/* COLOR */
+
+.blk_clr {
+    color: var(--clr-blk);
+}
+
+.dgray_clr {
+    color: var(--clr-dgray);
+}
+
+.gray_clr {
+    color: var(--clr-gray);
+}
+
+.red_clr {
+    color: var(--clr-red);
+}
+
+.green_clr {
+    color: var(--clr-green);
+}
+
+.offwhite_clr {
+    color: var(--clr-offwhite);
+}
+
+.red_clr {
+    color: var(--clr-red);
+}
+
+.orange_clr {
+    color: var(--clr-orange);
+}
+
+.litred {
+    color: var(--clr-litred);
+}
+
+.litgreen {
+    color: var(--clr-litgreen);
+}
+
+/* classes */
+
+.search_bar {
+    border: 1px solid #EAECF0;
+    border-radius: 6px;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.border_bottom {
+    border-bottom: 1px solid #EAECF0;
+}
+
+.border_right {
+    border-right: 1px solid #EAECF0;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.bg_clr {
+    background-color: var(--clr-offwhite);
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.bg_black {
+    background-color: var(--clr-blk);
+    border-radius: 16px;
+}
+
+.upgrade_btn {
+    border-radius: 39px;
+    padding: 9px 24px;
+}
+
+.prcnt_bg {
+    background-color: var(--clr-litgreen);
+    border-radius: 100px;
+}
+
+.prcnt_bg2 {
+    background-color: var(--clr-litred);
+    border-radius: 100px;
+}
+
+.prcnt_bg3 {
+    background: #F2F4F7;
+    border-radius: 100px;
+}
+
+.box {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    transition: all 300ms linear;
+}
+
+.box:hover {
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.285);
+    cursor: pointer;
+}
+
+.box1 {
+    /* box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);  */
+    border-radius: 12px;
+    transition: all 300ms linear;
+}
+
+.dott::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #5A9CFE;
+    position: absolute;
+    border-radius: 100px;
+    left: -15px;
+    top: 5px;
+}
+
+.dott1::before {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #20C997;
+    position: absolute;
+    border-radius: 100px;
+    left: -15px;
+    top: 5px;
+}
+
+.height {
+    height: 1024px;
+}
+
+.border_top {
+    border-top: 1px solid #EAECF0;
+}
+
+.status_bg {
+    background: var(--clr-litgreen);
+    border-radius: 100px;
+    padding: 2px 10px;
+}
+
+.status_bg1 {
+    background: #FFEAD8;
+    border-radius: 100px;
+    padding: 2px 10px;
+}
+
+.status_bg2 {
+    background: #F2F4F7;
+    border-radius: 100px;
+    padding: 2px 10px;
+}
+
+.px_200 {
+    width: 50px;
+}
+
+/* accordion */
+.accordion-button:not(.collapsed) {
+    color: transparent !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: var(--bs-accordion-btn-icon) !important;
+    transform: var(--bs-accordion-btn-icon-transform);
+}
+
+.accordion-flush .accordion-item {
+    border-bottom: 0;
+}
+
+.accordion-button {
+    padding: var(--bs-accordion-btn-padding-y) 0 !important;
+}
+
+.blk_hover_clr:hover {
+    color: var(--clr-blk);
+}
+
+@media (min-width:992px) {
+    .w-lg-80 {
+        width: 80%;
+    }
+}
